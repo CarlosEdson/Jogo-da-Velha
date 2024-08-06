@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.campo-superior, .campo-central, .campo-inferior{
+    display: flex;
+    flex-direction: row;
+}
+.campo-superior > div{
+    border: 1px solid;
+    height: 70px;
+    width: 35%;
+}
+.campo-central > div{
+    border: 1px solid;
+    height: 70px;
+    width: 35%;
+}
+.campo-inferior > div{
+    border: 1px solid;
+    height: 70px;
+    width: 35%;
+}
