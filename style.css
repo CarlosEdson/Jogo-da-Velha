@@ -13,11 +13,16 @@
 .campo-superior, .campo-central, .campo-inferior{
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
 }
 .campo-superior > div{
     border: 1px solid;
     height: 70px;
     width: 35%;
+}
+#campo1 {
+    border-top: none;
+    border-left: none;
 }
 .campo-central > div{
     border: 1px solid;
